@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f9a7380946.js" crossorigin="anonymous"></script>
+    <title>Sign In</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="form-container">
+        <div class="left-container">
+            <h2 class="sign-in">Sign IN</h2>
+            <div class="signin-options">
+                <i class="fab fa-google"></i>
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-twitter"></i>
+            </div>
+            <input class="input" type="text" placeholder="Email">
+            <input class="input" type="text" password="password" placeholder="Password">
+            <!-- <button>Sign In</button> -->
+            <!-- <button class="btn btn-with-links btn-dark">Sign in</button> -->
+            <button class="btn btn-with-links btn-light">Sign In <i class="fas fa-sign-in-alt"></i></button>
+        </div>
+        <div class="right-container">
+            <h2 class="greet">Hello Friends</h2>
+            <h5>Enter your details and start your journey with us!!</h5>
+            <!-- <button>Sign Up</button> -->
+            <button class="btn btn-primary btn-dark">Primary</button>
+            <!-- <button class="btn btn-primary btn-dark">Offer</button> -->
+
+
+            <button class="open-modal">Open Modal</button>
+            <div id="modal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <div class="modal-details">
+                        <!-- <i class="fas fa-gift icon-gift"></i> -->
+                        <i class="fas fa-birthday-cake icon-gift"></i>
+                        <h2 class="offer-off">50% OFF</h2>
+                        <h4 class="gray-text">Sign Up now and get 50% Off on Purchase of
+                            Rs. 1999!!</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./modal.js"></script>
+</body>
+
+</html>
